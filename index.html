@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    <head>
+
+        <title>title</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        <header>
+            <img class="top_logo" src="images/logo-crop.png">
+            <div class="top_buttons">
+
+                <button id="top_bt">
+                    <font data-lt="test-text"></font>
+                </button>
+            </div>
+        </header>
+        <button id="top_bt" class="lang_bt" onclick="changeLang()">
+            <img id="lang_bt_img" width="20" height="20">
+            <font data-lt="lang_button"></font>
+        </button>
+        <line></line>
+
+        <main>
+            <container style="height: 300px;" data-lt="base_text">
+                base text
+            </container>
+            <line></line>
+            <container>
+                <font class="header" data-lt="game1_header"></font>
+                <font class="description" data-lt="game1_description"></font>
+            </container>
+            <line></line>
+            <container>
+                <font class="header" data-lt="game2_header"></font>
+                <font class="description" data-lt="game2_description"></font>
+            </container>
+            <line></line>
+
+        </main>
+    </body>
+</html>
+
+
+<script src="scripts.js"></script>
